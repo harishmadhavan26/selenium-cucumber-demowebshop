@@ -1,0 +1,13 @@
+target/
+test-output/
+bin/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+node_modules/
+.idea/
+.settings/
+.project
+.classpath
