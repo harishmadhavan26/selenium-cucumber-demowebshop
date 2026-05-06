@@ -1,13 +1,30 @@
-target/
-test-output/
-bin/
-*.log
-*.class
-*.jar
-*.war
-*.ear
-node_modules/
-.idea/
-.settings/
-.project
+# Eclipse files
 .classpath
+.project
+.settings/
+
+# IntelliJ files
+.idea/
+*.iml
+out/
+
+# Maven build output
+target/
+
+# Test output
+test-output/
+
+# Logs
+*.log
+
+# Reports
+allure-results/
+allure-report/
+extent-reports/
+
+# Screenshots
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
